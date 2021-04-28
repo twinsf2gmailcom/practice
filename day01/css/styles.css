@@ -1,0 +1,14 @@
+.headp {
+    background-color: #8b6a10;
+    width: 30vw;
+    float: right;
+
+}
+
+#top_p {
+    outline: aqua;
+    outline-style: dashed;
+    outline-width: 10px;
+    margin: 30px;
+    padding: 30px;
+} 

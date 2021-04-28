@@ -1,0 +1,83 @@
+/* Applie global styles by using and * */
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/* STyles for index.html------------------------------ */
+/* header and footer apply to all html pages */
+body {
+    width: 100%;
+    margin: 0 auto;
+    /* Make sure margins are 0 and centered  */
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    display: inline;
+}
+
+ul {
+    background-color: blue;
+    margin: 20px;
+}
+
+li {
+    background-color: brown;
+    padding: 50px;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    width: 100px;
+}
+
+.imglogo {
+    width: 100px;
+}
+
+.navlinks {
+    float: right;
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+@media (max-width: 1200px) { 
+    .blue {
+        background-color: cyan;
+    }
+    .red {
+        background-color: magenta;
+    }
+    .green {
+        background-color: yellow;
+    } 
+}
+
+@media (max-width: 600px) { 
+    .blue {
+        background-color: antiquewhite;
+    }
+    .red {
+        background-color: maroon;
+    }
+    .green {
+        background-color: yellowgreen;
+    } 
+}
